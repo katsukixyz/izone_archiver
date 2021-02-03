@@ -1,0 +1,715 @@
+{
+  "tId": "2Qx1WWcnE89GDTbs5fYkMs",
+  "transactionCreatedTime": 1610156094486,
+
+  "meta": {
+    "masterVideoId": "DA61900E9DB2F3A6A428B21FA7062EFA1C02",
+    "contentId": "V_231743",
+    "serviceId": 2024,
+    "count": 71619,
+    "interfaceLang": "en_US",
+    "url": "http://vlive.tv/video/231743",
+    "homeUrl": "http://vlive.tv",
+    "provider": {
+      "name": "NAVER"
+    },
+    "subject": "\uC544\uC774\uC988\uC6D0\uC774 \uBCF4\uB0B4\uC628 #\uC0C8\uD574\uC778\uC0AC! \"\uAC74\uAC15\uD55C 2021\uB144 \uB418\uC138\uC694~\"",
+    "cover": {
+      "type": "single",
+      "source": "https://video-phinf.pstatic.net/20210107_172/1610009388078uomTR_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_03.jpg"
+    },
+
+    "share": {
+      "usable": false,
+      "count": 0,
+      "onlyInnerServices": false
+    },
+
+    "user": {
+      "id": "V_DEFAULT_UPLOADER",
+      "name": "V_SERVER",
+      "url": "http://vlive.tv"
+    },
+
+    "apiList": [
+      {
+        "name": "count",
+        "source": "https://apis.naver.com/rmcnmv/rmcnmv/PlayCount.json?v=1&key=V126eb3362254e56afd9ee77b8bf50c06662720385716ea91952394d963e09e370eabe77b8bf50c066627&tid=2Qx1WWcnE89GDTbs5fYkMs&tcs=null&vid=DA61900E9DB2F3A6A428B21FA7062EFA1C02&cc=US&sid=2024&inout=in",
+        "offset": 0.0,
+        "callbackData": {
+          "cpn": "NAVER",
+          "cpid": "NAVER",
+          "tid": "2Qx1WWcnE89GDTbs5fYkMs"
+        }
+      },
+      {
+        "name": "playTime",
+        "source": "https://apis.naver.com/videostat/videostat/PlayTime.json?v=1&tid=2Qx1WWcnE89GDTbs5fYkMs&tcs=null",
+        "offset": 0.0,
+        "callbackData": {
+          "cpn": "NAVER",
+          "cpid": "NAVER",
+          "tid": "2Qx1WWcnE89GDTbs5fYkMs"
+        }
+      },
+      {
+        "name": "share",
+        "source": "https://global.apis.naver.com/rmcnmv/rmcnmv/vod/share/getShareInfo?vid=DA61900E9DB2F3A6A428B21FA7062EFA1C02&inKey=V126eb3362254e56afd9ee77b8bf50c06662720385716ea91952394d963e09e370eabe77b8bf50c066627",
+        "offset": 0.0
+      },
+      {
+        "name": "playQuality",
+        "source": "https://apis.naver.com/videostat/videostat/playQuality.json",
+        "offset": 0.0
+      }
+    ],
+
+    "display": {
+      "vodinfo": {
+        "visible": "false"
+      },
+
+      "playButton": {
+        "visible": "true"
+      },
+
+      "screenClickPlay": {
+        "visible": "true"
+      },
+
+      "script": {
+        "visible": "false"
+      },
+
+      "quality": {
+        "visible": "true"
+      },
+
+      "setting": {
+        "visible": "false"
+      },
+
+      "playbackRate": {
+        "visible": "false"
+      },
+
+      "scrap": {
+        "visible": "true"
+      },
+
+      "expand": {
+        "visible": "false",
+
+        "value": "none"
+      },
+
+      "fullscreen": {
+        "visible": "true"
+      },
+
+      "seekable": {
+        "visible": "true"
+      },
+
+      "subtitle": {
+        "visible": "true"
+      },
+
+      "logo": {
+        "visible": "false"
+      },
+
+      "thumbnails": {
+        "visible": "true"
+      }
+    },
+
+    "rules": {
+      "splitVod": {
+        "version": 1.0,
+        "fadeInTime": 2.0,
+        "fadeOutTime": 2.0,
+        "playbackRewindTime": 5.0
+      },
+      "preloadingMidAd": {
+        "version": 1.0,
+        "offset": 10.0,
+        "showNotice": true,
+        "noticeTime": 3.0
+      },
+
+      "adFreeZone": { "version": 1.0, "zone": "end", "offset": 420.0 }
+    },
+
+    "countryCode": "US",
+
+    "encodingModel": "NONE"
+  },
+  "videos": {
+    "type": "video",
+    "hasPreview": "true",
+    "isPreview": false,
+    "canAutoPlay": true,
+    "isMultiTrack": false,
+    "dimension": "normal",
+
+    "list": [
+      {
+        "id": "DB579D594EED96CE8D33B915120ECAA4C9CF",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 21361386,
+        "type": "avc1",
+        "encodingOption": {
+          "id": "1080P_1920_5120_192",
+          "name": "1080P",
+          "profile": "HIGH",
+          "width": 1920,
+          "height": 1080,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 3213.0,
+          "audio": 192.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_385/4983dd4b-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_7e196a7832e9b9cec9aaa7e45e71c13d",
+        "sourceFrom": "AM"
+      },
+      {
+        "id": "CF797B8A62516BCA822B0911B1A8BFA391D4",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 916583,
+        "type": "avc1",
+        "encodingOption": {
+          "id": "144P_256_100_64",
+          "name": "144P",
+          "profile": "BASE",
+          "width": 256,
+          "height": 144,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 79.0,
+          "audio": 64.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_281/49884a1c-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_a920c7577b75b781fc48bb1f4011c5f0",
+        "sourceFrom": "AM"
+      },
+      {
+        "id": "533667B79B28321AE3EE977D5A4B782B3374",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 3115265,
+        "type": "avc1",
+        "encodingOption": {
+          "id": "270P_480_400_96",
+          "name": "270P",
+          "profile": "BASE",
+          "width": 480,
+          "height": 270,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 398.0,
+          "audio": 96.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_206/497f707a-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_38058f46623ccd47eb430f14d1d6c6da",
+        "sourceFrom": "AM"
+      },
+      {
+        "id": "DA61900E9DB2F3A6A428B21FA7062EFA1C02",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 4599966,
+        "type": "avc1",
+        "isDefault": true,
+        "encodingOption": {
+          "id": "360P_640_1228_96",
+          "name": "360P",
+          "profile": "BASE",
+          "width": 640,
+          "height": 360,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 635.0,
+          "audio": 96.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_382/4971b4d4-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_35ab742171d6e6283122a88379f22a0a",
+        "sourceFrom": "AM"
+      },
+      {
+        "id": "EA28A14B05A93A6CB9F5B2D743396860ECDE",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 5544644,
+        "type": "avc1",
+        "encodingOption": {
+          "id": "480P_854_1600_128",
+          "name": "480P",
+          "profile": "MAIN",
+          "width": 854,
+          "height": 480,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 752.0,
+          "audio": 128.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_137/497648b6-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_1893a513f5d33d6a448c54837e475184",
+        "sourceFrom": "AM"
+      },
+      {
+        "id": "2BA077EB020CFD99D244C6C8BCBD22996D1D",
+        "useP2P": false,
+        "duration": 50.176,
+        "previewDuration": 30,
+        "size": 10392837,
+        "type": "avc1",
+        "encodingOption": {
+          "id": "720P_1280_2500_192",
+          "name": "720P",
+          "profile": "MAIN",
+          "width": 1280,
+          "height": 720,
+          "isEncodingComplete": "true",
+          "completeProgress": "100"
+        },
+        "bitrate": {
+          "video": 1462.0,
+          "audio": 192.0
+        },
+        "p2pMetaUrl": "",
+        "p2pUrl": "",
+        "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_75/497adc98-50c5-11eb-9b6b-246e963a49b9.mp4?__gda__=1610157894_a5e5dc4c34988546db3404dfec1434d2",
+        "sourceFrom": "AM"
+      }
+    ]
+  },
+  "streams": [
+    {
+      "type": "HLS",
+      "enableABR": "off",
+
+      "dimension": "normal",
+
+      "keys": [
+        {
+          "type": "param",
+          "name": "__gda__",
+          "value": "1610157894_ff1871c754f526d1e8226d0a4b555d1b"
+        }
+      ],
+
+      "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/5f5494e8-50c5-11eb-be4a-5ebafcba569f.m3u8",
+      "sourceFrom": "AM",
+
+      "videos": [
+        {
+          "id": "DB579D594EED96CE8D33B915120ECAA4C9CF",
+          "encodingOption": {
+            "id": "1080P_1920_5120_192",
+            "name": "1080P",
+            "width": 1920,
+            "height": 1080
+          },
+          "bitrate": {
+            "video": 3213.0,
+            "audio": 192.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/5d257fd7-50c5-11eb-be4a-5ebafcba569f.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 4390912,
+              "resolution": "1920x1080",
+              "format": "5d257fd7-50c5-11eb-be4a-5ebafcba569f-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        },
+        {
+          "id": "CF797B8A62516BCA822B0911B1A8BFA391D4",
+          "encodingOption": {
+            "id": "144P_256_100_64",
+            "name": "144P",
+            "width": 256,
+            "height": 144
+          },
+          "bitrate": {
+            "video": 79.0,
+            "audio": 64.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/53552398-50c5-11eb-ae1e-d21d68c12640.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 157696,
+              "resolution": "256x144",
+              "format": "53552398-50c5-11eb-ae1e-d21d68c12640-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        },
+        {
+          "id": "533667B79B28321AE3EE977D5A4B782B3374",
+          "encodingOption": {
+            "id": "270P_480_400_96",
+            "name": "270P",
+            "width": 480,
+            "height": 270
+          },
+          "bitrate": {
+            "video": 398.0,
+            "audio": 96.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/53ae18ca-50c5-11eb-910f-246e963a41ed.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 610304,
+              "resolution": "480x270",
+              "format": "53ae18ca-50c5-11eb-910f-246e963a41ed-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        },
+        {
+          "id": "DA61900E9DB2F3A6A428B21FA7062EFA1C02",
+          "encodingOption": {
+            "id": "360P_640_1228_96",
+            "name": "360P",
+            "width": 640,
+            "height": 360
+          },
+          "bitrate": {
+            "video": 635.0,
+            "audio": 96.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/54d29ba3-50c5-11eb-be4a-5ebafcba569f.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 1736704,
+              "resolution": "640x360",
+              "format": "54d29ba3-50c5-11eb-be4a-5ebafcba569f-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        },
+        {
+          "id": "EA28A14B05A93A6CB9F5B2D743396860ECDE",
+          "encodingOption": {
+            "id": "480P_854_1600_128",
+            "name": "480P",
+            "width": 854,
+            "height": 480
+          },
+          "bitrate": {
+            "video": 752.0,
+            "audio": 128.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/548c92b4-50c5-11eb-9b6b-246e963a49b9.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 2179072,
+              "resolution": "854x480",
+              "format": "548c92b4-50c5-11eb-9b6b-246e963a49b9-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        },
+        {
+          "id": "2BA077EB020CFD99D244C6C8BCBD22996D1D",
+          "encodingOption": {
+            "id": "720P_1280_2500_192",
+            "name": "720P",
+            "width": 1280,
+            "height": 720
+          },
+          "bitrate": {
+            "video": 1462.0,
+            "audio": 192.0
+          },
+          "source": "https://globalv-rmcnmv.akamaized.net/c/read/v2/VOD_ALPHA/global_v_2021_01_07_186/hls/5cc118ae-50c5-11eb-be4a-5ebafcba569f.m3u8",
+          "sourceFrom": "AM",
+
+          "template": {
+            "type": "HLS_V3",
+            "body": {
+              "bandwidth": 2961408,
+              "resolution": "1280x720",
+              "format": "5cc118ae-50c5-11eb-be4a-5ebafcba569f-%06d.ts",
+              "version": "3",
+              "mediaSequence": 0,
+              "extInfos": [
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                4.004011,
+                4.004,
+                4.004,
+                2.068744
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+
+  "captions": {
+    "captionLang": "en_US",
+    "list": [
+      {
+        "language": "en",
+        "country": "US",
+        "locale": "en_US",
+        "label": "English",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA/2021_01_08/55f6b1fa-5101-11eb-9e65-005056853b14-1610035174398_en_US_cp.vtt",
+
+        "type": "cp",
+
+        "fanName": ""
+      },
+      {
+        "language": "es",
+        "country": "ES",
+        "locale": "es_ES",
+        "label": "Español",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA/2021_01_08/5a583828-5101-11eb-90c2-005056851803-1610035181748_es_ES_auto.vtt",
+
+        "type": "auto",
+
+        "fanName": ""
+      },
+      {
+        "language": "in",
+        "country": "ID",
+        "locale": "in_ID",
+        "label": "Indonesian",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA/2021_01_08/5886d2be-5101-11eb-9e65-005056853b14-1610035178698_in_ID_auto.vtt",
+
+        "type": "auto",
+
+        "fanName": ""
+      },
+      {
+        "language": "ja",
+        "country": "JP",
+        "locale": "ja_JP",
+        "label": "日本語",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA/2021_01_08/5cf5ecb0-5101-11eb-9e65-005056853b14-1610035186137_ja_JP_auto.vtt",
+
+        "type": "auto",
+
+        "fanName": ""
+      },
+      {
+        "language": "ko",
+        "country": "KR",
+        "locale": "ko_KR",
+        "label": "한국어",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA/2021_01_08/572b3a5c-5101-11eb-9e65-005056853b14-1610035176420_ko_KR_cp.vtt",
+
+        "type": "cp",
+
+        "fanName": ""
+      }
+    ]
+  },
+
+  "thumbnails": {
+    "list": [
+      {
+        "time": 5.0,
+        "source": "https://video-phinf.pstatic.net/20210107_166/1610009388005Xaq9m_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_02.jpg?type=s100"
+      },
+      {
+        "time": 15.0,
+        "source": "https://video-phinf.pstatic.net/20210107_22/16100093881728nSTd_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_04.jpg?type=s100"
+      },
+      {
+        "time": 25.0,
+        "source": "https://video-phinf.pstatic.net/20210107_31/16100093883272cuDl_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_06.jpg?type=s100"
+      },
+      {
+        "time": 35.0,
+        "source": "https://video-phinf.pstatic.net/20210107_273/1610009388485eqMxT_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_08.jpg?type=s100"
+      },
+      {
+        "time": 45.0,
+        "source": "https://video-phinf.pstatic.net/20210107_283/16100093886433JvWV_JPEG/437a747c-50c5-11eb-8e44-a0369ff95678_10.jpg?type=s100"
+      }
+    ],
+
+    "sprites": [
+      {
+        "type": "m_10x10",
+        "totalPage": 1,
+        "rowCount": 10,
+        "columnCount": 10,
+        "intervalType": "millisecond",
+        "interval": 1000,
+        "thumbnailWidth": 160,
+        "thumbnailHeight": 90,
+        "allThumbnailCount": 51,
+        "sourcePatternType": "SEQUENCE_PATTERN",
+        "source": "https://resources-rmcnmv.pstatic.net/globalv/c/read/v2/VOD_ALPHA//global_v_2021_01_07_435/54eade97-50c5-11eb-be4a-5ebafcba569f/sprite_5581a042-50c5-11eb-8e13-246e963a3ab9_#.jpg"
+      }
+    ]
+  },
+
+  "trackings": {
+    "stat-policy": [
+      {
+        "event": "quality",
+        "timeTable": [3, 5, 8, 13, 21, 34, 60],
+
+        "type": "qoe",
+        "url": "https://apis.naver.com/videostat/videostat/qoe"
+      },
+
+      {
+        "event": "error",
+
+        "type": "qoe",
+        "url": "https://apis.naver.com/videostat/videostat/qoeError"
+      }
+    ]
+  },
+
+  "externalFeature": {
+    "loudnessNormalization": {
+      "enable": true,
+      "version": "1.1.4",
+      "contentType": "application/octet-stream",
+      "contentEncoding": "BASE64_SAFE",
+      "data": "AQAAAAEAIToBOAEAvwaXMG0ZVjTpKsIPU0ciDQEXAjcDOgRVBbkBCcoXEM9tFbA7IJpeQImvAYABkCyAArYCgQQ2AQAAAAEAAAIBMv____8=",
+
+      "properties": {
+        "mode": "youtube-like",
+
+        "targetLoudness": -16.0
+      }
+    }
+  }
+}
