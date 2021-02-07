@@ -81,6 +81,9 @@ for vlive in tqdm(links):
                     if not os.path.exists(video_path + '/' + code_and_type + '/'):
                         os.mkdir(video_path + '/' + code_and_type)
                         urllib.request.urlretrieve(sub_link, video_path + '/' + code_and_type + '/' + code_and_type + ".vtt")
+                        # sub_r = requests.get(sub_link)
+                        # with open(video_path + '/' + code_and_type + '/' + code_and_type + '.vtt', 'wb') as f:
+                        #     f.write(sub_r.content)
                         print('Acquired ' + code_and_type + '.vtt')
 
             if not any('.mp4' in x for x in files):
@@ -88,6 +91,9 @@ for vlive in tqdm(links):
                 while attempts < 5:
                     try:
                         urllib.request.urlretrieve(video_link, video_path + '/' + video_id + '.mp4')
+                        # vid_r = requests.get(video_link)
+                        # with open(video_path + '/' + video_id + '.mp4', 'wb') as f:
+                        #     f.write(vid_r.content)
                         print('Acquired ' + video_id + '.mp4')
                         break
                     except:
@@ -104,35 +110,45 @@ for vlive in tqdm(links):
             break
 
     else:
-        #should never happen now
+        #should only happen when auto_downloaded video is re-checked by no_selenium
         matching_id_dir = [x for x in os.listdir("D:/izone/") if video_id in x.split("_")[1]]
-        if not len(matching_id_dir) == 0:
+        if len(matching_id_dir) != 0:
             matching_id_date = matching_id_dir[0].split("_")[0]
             if not matching_id_date == date:
                 print('SAME VIDEO ID EXISTS, DIFFERENT DATE: ', date, video_id)
                 print(matching_id_dir[0])
-                break
+                #if new time is less than 10 minutes apart from matching id date
+                if (datetime.datetime.strptime(date, "%Y%m%d%H%M") - datetime.datetime.strptime(matching_id_date, "%Y%m%d%H%M")).total_seconds() < 600:
+                    print('Updating date...')
+                    os.rename("D:/izone/"+matching_id_dir[0], "D:/izone/" + date + '_' + video_id)
+        else:
+            os.mkdir(video_path)
 
-        os.mkdir(video_path)
-        while attempts < 5:
-            try:
-                urllib.request.urlretrieve(video_link, video_path + '/' + video_id+'.mp4')
-                print('Acquired ' + video_id + '.mp4')
-                break
-            except:
-                attempts += 1
-                pass
+            while attempts < 5:
+                try:
+                    urllib.request.urlretrieve(video_link, video_path + '/' + video_id+'.mp4')
+                    # vid_r = requests.get(video_link)
+                    # with open(video_path + '/' + video_id + '.mp4', 'wb') as f:
+                    #     f.write(vid_r.content)
+                    print('Acquired ' + video_id + '.mp4')
+                    break
+                except:
+                    attempts += 1
+                    pass
 
 
-        if 'captions' in video_r:
-            #if video has captions
-            for language in video_r['captions']['list']:
-                code_and_type = language['language'] + '-' + language['type']
-                sub_link = language['source']
-                os.mkdir(video_path + '/' + code_and_type)
-                urllib.request.urlretrieve(sub_link, video_path + '/' + code_and_type + '/' + code_and_type + ".vtt")
-                print('Acquired ' + code_and_type + '.vtt')
+            if 'captions' in video_r:
+                #if video has captions
+                for language in video_r['captions']['list']:
+                    code_and_type = language['language'] + '-' + language['type']
+                    sub_link = language['source']
+                    os.mkdir(video_path + '/' + code_and_type)
+                    urllib.request.urlretrieve(sub_link, video_path + '/' + code_and_type + '/' + code_and_type + ".vtt")
+                    # sub_r = requests.get(sub_link)
+                    # with open(video_path + '/' + code_and_type + '/' + code_and_type + '.vtt', 'wb') as f:
+                        # f.write(sub_r.content)
+                    print('Acquired ' + code_and_type + '.vtt')
 
-        with open(video_path + '/' + 'title.txt', 'w', encoding = 'utf-8') as f:
-            f.write(title)
-        print('Acquired title.txt')
+            with open(video_path + '/' + 'title.txt', 'w', encoding = 'utf-8') as f:
+                f.write(title)
+            print('Acquired title.txt')
